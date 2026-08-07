@@ -1,8 +1,8 @@
-﻿# INVESTMENT_AI_RADAR 공개 기능 완료 요약
+# 공개 기능 완료 요약
 
 ## 프로젝트 목적
 
-`INVESTMENT_AI_RADAR`는 자동 주문이나 증권계좌 연동을 수행하는 앱이 아닙니다.
+Investment AI Radar는 자동 주문이나 증권계좌 연동을 수행하는 앱이 아닙니다.
 
 - 보유·관심 종목의 공시, 뉴스, 이벤트, 공식 출처와 공개 참고자료를 수집·검토합니다.
 - 자동으로 발견한 자료는 후보 상태로 격리하고 사용자가 확인한 뒤 승인하거나 제외합니다.
@@ -27,13 +27,7 @@
 
 ## 완료 상태
 
-```text
-FUNCTION_COMPLETE
-PORTFOLIO_RECORDING_COMPLETE
-FINAL_FULL_QA_COMPLETE
-```
-
-기능 구현과 포트폴리오 촬영을 완료했고, 2026-08-07 전체 최종 QA를 다시 실행해 공개 QA 문서에 반영했습니다.
+기능 구현, 포트폴리오 촬영, 최종 전체 QA와 공개 GitHub 저장소 정리를 완료했습니다.
 
 ## 범위 제외
 
@@ -44,7 +38,7 @@ FINAL_FULL_QA_COMPLETE
 - 인증·HTTPS를 갖춘 외부 공개 서비스
 - 카카오톡·모바일 Push
 
-## 운영 환경에서 별도 확인할 항목
+## 운영 환경 별도 확인
 
 - 외부 Provider live smoke
 - 실제 휴대전화 LAN smoke
@@ -53,3 +47,7 @@ FINAL_FULL_QA_COMPLETE
 - 실제 외부 배포
 
 미실행 항목은 PASS로 표시하지 않습니다.
+
+---
+
+[문서 목차](../README.md) · [프로젝트 README](../../README.md)

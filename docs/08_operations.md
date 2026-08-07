@@ -1,4 +1,4 @@
-﻿# 08. 운영
+# 08. Operations
 
 ## 운영 원칙
 
@@ -64,10 +64,22 @@ DB: .local/recording_session/recording_session.db
 → 실제 판단과 주문은 외부 금융 앱에서 수행
 ```
 
+## 실패 처리 원칙
+
+- Provider 실패 시 기존 Portfolio와 거래 기록을 임의로 수정하지 않음
+- 미설정 Provider를 정상 상태처럼 표시하지 않음
+- Scheduler 중복 실행을 lock으로 보호
+- E2E 종료 후 테스트 서버 process cleanup
+- DB revision이 맞지 않는 상태에서 임의 운영하지 않음
+
 ## 금지 사항
 
 - 실제 DB를 공개 시연 DB로 복사
 - Secret을 화면·로그·문서에 기록
-- Provider가 거래 원장을 직접 수정
+- Provider가 거래 기록을 직접 수정
 - 사용자 확인 없이 후보를 판단 근거로 승격
 - 자동 주문 기능이 있는 것처럼 문서화
+
+---
+
+[문서 목차](README.md) · [프로젝트 README](../README.md)

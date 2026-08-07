@@ -1,23 +1,24 @@
-﻿# 포트폴리오 시연 가이드
+# 포트폴리오 시연 가이드
 
 ## 목적
 
-실제 투자 DB나 개인 계정 정보를 사용하지 않고 Investment AI Radar의 주요 흐름을 보여주기 위한 시연 가이드입니다.
+실제 투자 DB나 개인 계정 정보를 사용하지 않고 Investment AI Radar의 주요 등록·검토·연결·브리핑 흐름을 보여주기 위한 시연 가이드입니다.
 
-## 시연 원칙
+## 시연 환경
 
 - 별도 recording session DB 사용
-- 공개적으로 식별 가능한 대표 자산 사용
-- 실제 보유 수량·평단·계정·API Key 미사용
-- 외부 Provider 자동 수집은 기본 비활성
-- 공식 URL과 공개 참고자료는 사용자가 웹에서 직접 등록
-- 자동 주문·이메일 발송 없음
+- 실제 투자 DB와 경로 분리
+- 외부 Provider 자동 수집 기본 비활성
+- 실제 이메일 발송 비활성
+- 실제 주문 기능 미지원
 
 ## 대표 자산
 
 - Samsung Electronics (`005930`, KRX)
 - Microsoft (`MSFT`, NASDAQ)
 - Bitcoin (`BTC`, UPBIT)
+
+공개적으로 식별 가능한 자산만 사용하며 실제 보유 수량·평단·계정 정보는 사용하지 않습니다.
 
 ## 시연 순서
 
@@ -35,7 +36,7 @@
 12. 종목 관리 방향과 위험 기준
 13. 개인 설정·출처 상태·시스템 상태
 
-실제 편집 영상은 [../10_portfolio_media.md](../10_portfolio_media.md)에 정리합니다.
+전체 이미지·영상 인덱스는 [10. Portfolio Media](../10_portfolio_media.md)에 정리했습니다.
 
 ## 촬영 전 확인
 
@@ -44,3 +45,13 @@
 - Secret·이메일·API Key가 보이지 않는지 확인
 - Provider 미설정 상태를 임의로 정상처럼 만들지 않음
 - 자동 주문 기능이 있는 것처럼 설명하지 않음
+
+## 관련 문서
+
+- [공개 시연 데이터 환경](PUBLIC_DEMO_DATA.md)
+- [포트폴리오 미디어](../10_portfolio_media.md)
+- [보안과 개인정보](../09_security_and_privacy.md)
+
+---
+
+[문서 목차](../README.md) · [프로젝트 README](../../README.md)
