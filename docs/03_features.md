@@ -4,12 +4,10 @@
 
 Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 사건 연결 → 일정·브리핑 → 사용자 판단** 흐름을 중심으로 구성했습니다.
 
-각 기능 아래에 해당 화면과 시연 영상을 직접 연결해, 구현 내용과 증빙을 같은 위치에서 확인할 수 있도록 구성합니다.
-
 ## 전체 대시보드
 
 <p align="center">
-  <img src="images/01_오늘의_분석.png" alt="오늘의 분석" width="90%">
+  <img src="images/01_오늘의_분석.png" alt="오늘의 분석" width="100%">
 </p>
 
 오늘의 분석 화면에서 종목별 중요 정보, 일정, 브리핑과 관리 상태를 한 흐름으로 확인합니다.
@@ -22,14 +20,23 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 종목 상세 분석
 - 다음 확인 일정 연결
 
-| 분석 종목 목록 | 종목 상세 분석 |
-|:---:|:---:|
-| ![분석 종목 목록](images/02_분석_종목_목록.png) | ![종목 상세 분석](images/03_마이크로소프트_종목_상세_분석.png) |
+<p align="center">
+  <img src="images/02_분석_종목_목록.png" alt="분석 종목 목록" width="100%">
+</p>
 
-검증 영상:
-[01 분석 종목 등록](videos/01_분석_종목_등록.mp4) ·
-[02 분석 종목 수정·관리 방향](videos/02_분석_종목_수정_종목_관리_방향.mp4)
+<p align="center">
+  <img src="images/03_마이크로소프트_종목_상세_분석.png" alt="종목 상세 분석" width="100%">
+</p>
 
+### 동작 확인
+
+**분석 종목 등록**
+
+https://github.com/user-attachments/assets/a3a92ce7-66c1-47dd-945c-cf3e0b8aa2ea
+
+**분석 종목 수정·관리 방향**
+
+https://github.com/user-attachments/assets/1220ae1a-3450-4676-92ac-285f3b4624ab
 ## 2. 거래 기록
 
 - 매수·매도 거래 기록
@@ -39,9 +46,9 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 매도 원가와 실현손익 계산
 - 중복·잘못된 상태 전이 보호
 
-검증 영상:
-[03 고급 거래 기록](videos/03_분석_종목_고급_거래_기록.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/d06a5f1f-d0ae-4a06-9506-93588540bfa0
 ## 3. 공식 출처와 구독
 
 - 기관·회사 공식 출처 등록
@@ -50,14 +57,23 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 구독 변경 이력
 - 공개 참고자료 자동 발견 후보 관리
 
-| 공식 출처 관리 | 자동 구독·검토 대기 |
-|:---:|:---:|
-| ![공식 출처 관리](images/11_출처_검증_상태_공식_출처_관리.png) | ![자동 구독 검토 대기](images/11_1_출처_검증_상태_자동_구독_검토_대기.png) |
+<p align="center">
+  <img src="images/11_출처_검증_상태_공식_출처_관리.png" alt="공식 출처 관리" width="100%">
+</p>
 
-검증 영상:
-[04 공식 출처 등록·수정](videos/04_공식_출처_등록_및_수정.mp4) ·
-[05 출처 수정·관심 대상 등록](videos/05_출처_수정_및_관심_대상_등록.mp4)
+<p align="center">
+  <img src="images/11_1_출처_검증_상태_자동_구독_검토_대기.png" alt="자동 구독 검토 대기" width="100%">
+</p>
 
+### 동작 확인
+
+**공식 출처 등록·수정**
+
+https://github.com/user-attachments/assets/67778e6e-8d7a-4a82-85c1-6073e39431d5
+
+**출처 수정·관심 대상 등록**
+
+https://github.com/user-attachments/assets/f72174c1-d4f8-4341-97de-b0b5d37551eb
 ## 4. 참고자료
 
 - 애널리스트·전문가 공개 참고자료 직접 등록
@@ -66,26 +82,26 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 참고자료 보관함
 - 자동 발견 자료와 직접 등록 자료 분리
 
-![참고자료 보관함](images/11_2_출처_검증_상태_참고자료_보관함.png)
+<p align="center">
+  <img src="images/11_2_출처_검증_상태_참고자료_보관함.png" alt="참고자료 보관함" width="100%">
+</p>
 
-검증 영상:
-[06 애널리스트 참고자료 등록](videos/06_애널리스트_참고자료_등록.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/70687ec5-d306-46ba-b42c-085956407c8c
 ## 5. 검토 대기 자료
 
 - 자동 발견 후보 staging
-- 발행일 확인
+- 발행일·출처 확인
 - 정식 참고자료 승격
 - 검토 제외와 제외 사유
 - 최종 상태 보호
 - 중복 제출과 409 충돌 처리
 - pagination과 검색
 
-![자동 구독·검토 대기](images/11_1_출처_검증_상태_자동_구독_검토_대기.png)
+### 동작 확인
 
-검증 영상:
-[07 검토 대기 자료](videos/07_검토_대기_자료.mp4)
-
+https://github.com/user-attachments/assets/f893039b-4ba2-4cf0-80c3-9d0786bb8f24
 ## 6. 중요 정보
 
 - URL 기반 등록 전 확인
@@ -95,11 +111,13 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - Claim과 Information Event 생성
 - 기사 전문 미저장
 
-![중요 정보 검증 상태](images/05_중요_정보_검증_상태.png)
+<p align="center">
+  <img src="images/05_중요_정보_검증_상태.png" alt="중요 정보 검증 상태" width="100%">
+</p>
 
-검증 영상:
-[08 중요 정보 웹 등록·확인·통합 사건 연결](videos/08_중요_정보_웹_등록_검증_통합_사건_연결.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/5b24c288-5dd2-4ff8-a7e8-82fb3ce73cd6
 ## 7. 공식 공시
 
 - SEC 등 공식 원문 URL 등록
@@ -108,23 +126,30 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 통합 사건 후보 연결
 - 공식 원문 링크 유지
 
-![공식 공시](images/06_공식_공시.png)
+<p align="center">
+  <img src="images/06_공식_공시.png" alt="공식 공시" width="100%">
+</p>
 
-검증 영상:
-[09 공식 공시 웹 등록·확인·통합 사건 연결](videos/09_공식_공시_웹_등록_검증_통합_사건_연결.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/36be6be4-660a-4154-9216-a37db2c33f6e
 ## 8. 통합 사건
 
 - 반복 보도와 공식 자료를 사건 단위로 묶음
 - 뉴스 참조·독립 원출처·공식 자료 수 표시
 - 검토 상태와 공식 확인 상태 표시
 
-![통합 사건](images/07_통합_사건.png)
+<p align="center">
+  <img src="images/07_통합_사건.png" alt="통합 사건" width="100%">
+</p>
 
-관련 검증 영상:
-[08 중요 정보 → 통합 사건](videos/08_중요_정보_웹_등록_검증_통합_사건_연결.mp4) ·
-[09 공식 공시 → 통합 사건](videos/09_공식_공시_웹_등록_검증_통합_사건_연결.mp4)
+### 동작 확인
 
+중요 정보와 공식 공시가 통합 사건에 연결되는 흐름은 08·09 검증 영상에서 함께 확인했습니다.
+
+https://github.com/user-attachments/assets/5b24c288-5dd2-4ff8-a7e8-82fb3ce73cd6
+
+https://github.com/user-attachments/assets/36be6be4-660a-4154-9216-a37db2c33f6e
 ## 9. 경제·기업 일정
 
 - 공식 발표 일정 URL 등록
@@ -134,40 +159,47 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 발표 전 확인 목록
 - 중복 일정 방지
 
-![경제·기업 일정](images/08_경제_기업_일정.png)
+<p align="center">
+  <img src="images/08_경제_기업_일정.png" alt="경제·기업 일정" width="100%">
+</p>
 
-검증 영상:
-[10 경제·기업 일정 웹 등록·종목 연결](videos/10_경제_기업_일정_웹_등록_종목_연결.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/1b25540b-290d-4db7-94a7-6c90791b1532
 ## 10. 변경 기반 브리핑
 
 - 기간·중요도 조건 설정
 - Preview와 Final 생성 분리
 - 중복 상태 fingerprint 제외
 - 중요 변경·공식 확인 수 표시
-- 자동 이메일 발송과 분리
+- 이메일 발송 로직과 브리핑 생성을 분리
 
-![변경 기반 브리핑](images/09_변경_기반_브리핑.png)
+<p align="center">
+  <img src="images/09_변경_기반_브리핑.png" alt="변경 기반 브리핑" width="100%">
+</p>
 
-검증 영상:
-[11 변경 기반 브리핑 생성·핵심 정보](videos/11_변경_기반_브리핑_생성_핵심_정보.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/4f80dd16-6d9e-4f00-9ec8-0b2474f8c593
 ## 11. 위험 기준과 관리 방향
 
 - 규칙 기반 위험 기준 제안
 - 사용자 확인 후 적용
 - 종목 관리 방향 준비 상태
 - 데이터 부족·미설정 항목 명시
-- 매수·매도·유지 명령, 목표가, 손절가, 상승 확률 미생성
+- 매수·매도 명령, 목표가, 손절가, 상승 확률을 자동 생성하지 않음
 
-| 관리 방향 준비 상태 | 위험 설정 자동 제안 |
-|:---:|:---:|
-| ![관리 방향 준비 상태](images/04_종목_관리_방향_준비_상태.png) | ![위험 설정 자동 제안](images/10_위험_설정_자동_제안.png) |
+<p align="center">
+  <img src="images/04_종목_관리_방향_준비_상태.png" alt="종목 관리 방향 준비 상태" width="100%">
+</p>
 
-검증 영상:
-[02 분석 종목 수정·관리 방향](videos/02_분석_종목_수정_종목_관리_방향.mp4) ·
-[12 종목 관리 방향·준비 상태·관리 기준](videos/12_종목_관리_방향_준비_상태_관리_기준.mp4)
+<p align="center">
+  <img src="images/10_위험_설정_자동_제안.png" alt="위험 설정 자동 제안" width="100%">
+</p>
 
+### 동작 확인
+
+https://github.com/user-attachments/assets/e6edabda-a369-4837-9be1-042f6468e4e5
 ## 12. 개인 설정
 
 - 국내장·NASDAQ 개장 전/마감 후 브리핑 offset
@@ -176,11 +208,13 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 이메일 설정과 최소 중요도
 - 시간대 설정
 
-![시장 브리핑·알림 설정](images/10_1_시장_브리핑_알림_설정.png)
+<p align="center">
+  <img src="images/10_1_시장_브리핑_알림_설정.png" alt="시장 브리핑 알림 설정" width="100%">
+</p>
 
-검증 영상:
-[13 개인 설정·운영 상태·안전 기능](videos/13_개인_설정_운영_상태_안전_기능_확인.mp4)
+### 동작 확인
 
+https://github.com/user-attachments/assets/1888abf3-2f54-47e6-bd9c-e25ddcd28db2
 ## 13. 운영 상태
 
 - 출처·검증 상태
@@ -189,16 +223,18 @@ Investment AI Radar는 **종목 관리 → 정보 수집·등록 → 검토 → 
 - 브리핑·자동화 상태
 - 비활성·미설정 기능의 명시적 표시
 
-![시스템 연결 상태](images/12_시스템_연결_상태.png)
+<p align="center">
+  <img src="images/12_시스템_연결_상태.png" alt="시스템 연결 상태" width="100%">
+</p>
 
-검증 영상:
-[13 개인 설정·운영 상태·안전 기능](videos/13_개인_설정_운영_상태_안전_기능_확인.mp4)
+### 동작 확인
 
-## 기능 검증 요약
+https://github.com/user-attachments/assets/1888abf3-2f54-47e6-bd9c-e25ddcd28db2
+## 기능 검증
 
-13개의 편집 영상은 각 기능 시나리오를 실제 UI 흐름으로 재실행해 확인한 **수동 기능 검증 증빙**입니다.
+13개 주요 사용자 시나리오는 실제 UI에서 순서대로 실행해 동작을 확인했습니다.
 
-전체 자동화 QA와 영상별 검증 결과는 [05. Validation](05_validation.md), 전체 미디어 인덱스는 [10. Portfolio Media](10_portfolio_media.md)에 정리했습니다.
+영상별 검증 항목과 결과는 [05. Validation](05_validation.md)에 정리했습니다.
 
 ---
 

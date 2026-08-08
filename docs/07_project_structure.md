@@ -8,11 +8,8 @@ investment_ai_radar/
 │  └─ workflows/
 ├─ docs/
 │  ├─ README.md
-│  ├─ images/                 # 포트폴리오 대표 화면 15장
-│  ├─ videos/                 # 편집 완료 기능 시연 13개
-│  ├─ demo/
-│  ├─ public/
-│  ├─ validation/
+│  ├─ images/                 # 주요 화면 15장
+│  ├─ videos/                 # 기능 검증 영상 13개
 │  ├─ 01_overview.md
 │  ├─ 02_architecture.md
 │  ├─ 03_features.md
@@ -21,8 +18,7 @@ investment_ai_radar/
 │  ├─ 06_project_scope.md
 │  ├─ 07_project_structure.md
 │  ├─ 08_operations.md
-│  ├─ 09_security_and_privacy.md
-│  └─ 10_portfolio_media.md
+│  └─ 09_security_and_privacy.md
 ├─ infrastructure/
 ├─ scripts/
 ├─ server/
@@ -63,26 +59,32 @@ investment_ai_radar/
 | `server/app/api` | HTTP endpoint와 API 계약 |
 | `server/app/services` | 업무 규칙과 상태 전이 |
 | `server/app/repositories` | DB 접근과 transaction |
-| `server/app/providers` | 외부 공개 Provider adapter |
+| `server/app/providers` | 외부 정보 Provider adapter |
 | `server/tests` | Backend 회귀 |
 | `web/src/app` | Next.js route |
-| `web/src/components` | 화면과 상호작용 |
+| `web/src/components` | 화면과 사용자 상호작용 |
 | `web/src/lib` | API client와 공통 로직 |
 | `web/tests` | UI 계약 회귀 |
 | `web/tests/e2e` | Browser E2E |
-| `scripts` | 로컬 운영·Scheduler·안전 도구 |
-| `docs/images` | 대표 화면 15장 |
-| `docs/videos` | 기능 시연 영상 13개 |
+| `scripts` | 로컬 운영·Scheduler·검증 도구 |
+| `docs/images` | 주요 기능 화면 |
+| `docs/videos` | 실제 UI 기능 검증 영상 |
 
 ## 문서 구성
 
-- `01~07`: 다른 포트폴리오 프로젝트와 공통으로 사용하는 핵심 문서 흐름
-- `08_operations.md`: 이 프로젝트의 로컬 운영·Scheduler 특화 문서
-- `09_security_and_privacy.md`: 투자 데이터·Secret·공개 범위 특화 문서
-- `10_portfolio_media.md`: 이미지·영상 인덱스
-- `demo/`: 공개 시연과 촬영 환경
-- `public/`: 공개 Freeze·QA·Manifest 근거
-- `validation/`: 공개 자산 기반 별도 검증 환경
+`01~07`은 다른 프로젝트와 동일한 핵심 문서 흐름을 사용하고, 이 프로젝트의 데이터·운영 특성 때문에 `08 Operations`, `09 Security & Privacy`를 추가했습니다.
+
+```text
+Overview
+→ Architecture
+→ Features
+→ Data Flow
+→ Validation
+→ Project Scope
+→ Project Structure
+→ Operations
+→ Security & Privacy
+```
 
 ## Git 제외 대상
 
@@ -106,11 +108,13 @@ temp/
 backup/
 ```
 
-실제 투자 데이터와 런타임 산출물은 소스 저장소와 분리합니다.
+실제 투자 데이터, Secret과 런타임 산출물은 저장소 소스와 분리합니다.
 
-## 공개 소스 구성
+## 소스 구성
 
-공개 저장소에는 애플리케이션 소스, 테스트, 마이그레이션, 운영 스크립트, 문서와 포트폴리오 미디어를 포함하고 실제 DB·Secret·개인 보유정보·로컬 런타임 산출물은 제외합니다.
+저장소는 애플리케이션 소스, 테스트, 마이그레이션, 운영·검증 스크립트와 기술 문서로 구성합니다.
+
+실제 투자 DB, 계정·보유정보, Secret과 로컬 런타임 산출물은 소스 관리 대상에 포함하지 않습니다.
 
 ---
 
