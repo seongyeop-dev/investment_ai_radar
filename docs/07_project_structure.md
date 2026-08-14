@@ -1,4 +1,4 @@
-# 07. Project Structure
+# 07. 프로젝트 구조
 
 ## 저장소 구조
 

@@ -155,16 +155,16 @@ Portfolio 연결 / Briefing / 관리 방향
 
 | 문서 | 내용 |
 |:---|:---|
-| [문서 목차](docs/README.md) | 상세 문서 전체 목록 |
-| [01. Overview](docs/01_overview.md) | 개발 배경, 문제 정의, 목적과 최종 결과 |
-| [02. Architecture](docs/02_architecture.md) | Web·API·Service·Repository와 시스템 경계 |
-| [03. Features](docs/03_features.md) | 실제 구현 기능과 화면 |
-| [04. Data Flow](docs/04_data_flow.md) | 등록·검토·사건 연결·브리핑 흐름 |
-| [05. Validation](docs/05_validation.md) | 자동화 QA와 실제 UI 기능 검증 |
-| [06. Project Scope](docs/06_project_scope.md) | 구현 범위와 설계상 제외 범위 |
-| [07. Project Structure](docs/07_project_structure.md) | 저장소 구조와 핵심 경로 |
-| [08. Operations](docs/08_operations.md) | 실행·QA·Scheduler·사용 흐름 |
-| [09. Security & Privacy](docs/09_security_and_privacy.md) | Secret·데이터 분리·외부 자료 관리 |
+| [문서 목록](docs/README.md) | 상세 문서 전체 목록 |
+| [01. 프로젝트 개요](docs/01_overview.md) | 개발 배경, 문제 정의, 목적과 최종 결과 |
+| [02. 시스템 아키텍처](docs/02_architecture.md) | Web·API·Service·Repository와 시스템 경계 |
+| [03. 주요 기능](docs/03_features.md) | 실제 구현 기능과 화면 |
+| [04. 데이터 흐름](docs/04_data_flow.md) | 등록·검토·사건 연결·브리핑 흐름 |
+| [05. 검증 결과](docs/05_validation.md) | 자동화 QA와 실제 UI 기능 검증 |
+| [06. 프로젝트 범위](docs/06_project_scope.md) | 구현 범위와 설계상 제외 범위 |
+| [07. 프로젝트 구조](docs/07_project_structure.md) | 저장소 구조와 핵심 경로 |
+| [08. 운영](docs/08_operations.md) | 실행·QA·Scheduler·사용 흐름 |
+| [09. 보안 및 개인정보 보호](docs/09_security_and_privacy.md) | Secret·데이터 분리·외부 자료 관리 |
 
 ## 완료 상태
 
